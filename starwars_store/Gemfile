@@ -16,6 +16,7 @@ gem 'coffee-rails', '~> 4.2'
 
 #############Added GEMs:################
 gem "braintree", "~> 2.69.1"
+gem "dotenv"
 ########################################
 
 # Use jquery as the JavaScript library
