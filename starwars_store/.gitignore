@@ -15,3 +15,10 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore secret.yml file.
+secrets.yml
+
+# dotenv
+# TODO Comment out this rule if environment variables can be committed
+.env
