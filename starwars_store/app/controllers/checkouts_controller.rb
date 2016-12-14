@@ -4,7 +4,7 @@ class CheckoutsController < ApplicationController
   end
 
   def new
-    # @client_token = Braintree::ClientToken.generate
+    @client_token = Braintree::ClientToken.generate
   end
 
   def create
